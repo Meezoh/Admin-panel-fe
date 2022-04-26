@@ -1,13 +1,73 @@
-body {
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.register-here,
+.login-here {
+  font-size: 14px;
+}
+
+.login-here {
+  margin-top: 2rem;
+}
+
+h1 {
+  line-height: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.alert-heading {
+  font-size: 1.2rem;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: right;
+  margin-right: 8rem;
+}
+
+.btn {
+  margin-left: 1rem;
+}
+
+.Register,
+.Login {
+  margin: 5rem auto;
+  max-width: 35rem;
+  padding: 4rem;
+  border: 3px solid rgb(146, 142, 142);
+  border-radius: 1rem;
+}
+.name {
+  margin-bottom: 1.1rem;
+}
+
+.table {
+  margin: 3rem auto;
+  max-width: 85%;
+}
+
+.id {
+  max-width: 3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.select {
+  line-height: 0;
+  display: inline-block;
+}
+
+.admin-panel .title {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.check-all {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
 }
